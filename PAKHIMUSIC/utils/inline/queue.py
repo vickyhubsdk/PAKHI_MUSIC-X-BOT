@@ -1,6 +1,6 @@
 from typing import Union
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.formatters import time_to_seconds
+from PAKHIMUSIC import app
+from PAKHIMUSIC.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 

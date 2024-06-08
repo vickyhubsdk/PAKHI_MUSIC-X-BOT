@@ -6,21 +6,21 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from ANNIEMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.utils import seconds_to_min, time_to_seconds
-from ANNIEMUSIC.utils.channelplay import get_channeplayCB
-from ANNIEMUSIC.utils.decorators.language import languageCB
-from ANNIEMUSIC.utils.decorators.play import PlayWrapper
-from ANNIEMUSIC.utils.formatters import formats
-from ANNIEMUSIC.utils.inline import (
+from PAKHIMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from PAKHIMUSIC.core.call import JARVIS
+from PAKHIMUSIC.utils import seconds_to_min, time_to_seconds
+from PAKHIMUSIC.utils.channelplay import get_channeplayCB
+from PAKHIMUSIC.utils.decorators.language import languageCB
+from PAKHIMUSIC.utils.decorators.play import PlayWrapper
+from PAKHIMUSIC.utils.formatters import formats
+from PAKHIMUSIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from ANNIEMUSIC.utils.database import (
+from PAKHIMUSIC.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -28,8 +28,8 @@ from ANNIEMUSIC.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from ANNIEMUSIC.utils.logger import play_logs
-from ANNIEMUSIC.utils.stream.stream import stream
+from PAKHIMUSIC.utils.logger import play_logs
+from PAKHIMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical, AMBOT
 
 

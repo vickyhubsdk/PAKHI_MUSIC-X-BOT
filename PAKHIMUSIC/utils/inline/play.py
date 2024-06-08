@@ -2,9 +2,9 @@ import math
 from typing import Union
 from pyrogram.types import InlineKeyboardButton
 
-from ANNIEMUSIC.utils.formatters import time_to_seconds
+from PAKHIMUSIC.utils.formatters import time_to_seconds
 
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 
 def track_markup(_, user_id, channel, fplay):
     buttons = [

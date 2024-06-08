@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import add_gban_user, remove_gban_user
-from ANNIEMUSIC.utils.decorators.language import language
-from ANNIEMUSIC.utils.extraction import extract_user
+from PAKHIMUSIC import app
+from PAKHIMUSIC.misc import SUDOERS
+from PAKHIMUSIC.utils.database import add_gban_user, remove_gban_user
+from PAKHIMUSIC.utils.decorators.language import language
+from PAKHIMUSIC.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

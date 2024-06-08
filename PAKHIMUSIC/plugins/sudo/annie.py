@@ -1,10 +1,10 @@
 import requests
 import random
-from ANNIEMUSIC import app, userbot
-from ANNIEMUSIC.misc import SUDOERS
+from PAKHIMUSIC import app, userbot
+from PAKHIMUSIC.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from ANNIEMUSIC.utils.jarvis_ban import admin_filter
+from PAKHIMUSIC.utils.jarvis_ban import admin_filter
 
 
 

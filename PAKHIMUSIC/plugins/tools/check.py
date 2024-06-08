@@ -1,7 +1,7 @@
 from pyrogram import Client, filters, types
 import re
 import time
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 from config import BOT_USERNAME
 
 

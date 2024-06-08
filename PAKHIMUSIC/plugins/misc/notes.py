@@ -1,10 +1,10 @@
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from ANNIEMUSIC.utils.jarvis_ban import admin_filter
-from ANNIEMUSIC.mongo.notesdb import *
-from ANNIEMUSIC.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
-from ANNIEMUSIC.utils.yumidb import user_admin
+from PAKHIMUSIC.utils.jarvis_ban import admin_filter
+from PAKHIMUSIC.mongo.notesdb import *
+from PAKHIMUSIC.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
+from PAKHIMUSIC.utils.yumidb import user_admin
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , Message , CallbackQuery
 from pyrogram.enums import ChatMemberStatus
 
@@ -82,7 +82,7 @@ async def PrivateNote(client, message):
     else:
         if await is_pnote_on(chat_id):
             await message.reply(
-                "Your notes are currently being sent in private. ANNIEMUSIC will send a small note with a button which redirects to a private chat.",
+                "Your notes are currently being sent in private. PAKHIMUSIC will send a small note with a button which redirects to a private chat.",
                 quote=True
             )
         else:

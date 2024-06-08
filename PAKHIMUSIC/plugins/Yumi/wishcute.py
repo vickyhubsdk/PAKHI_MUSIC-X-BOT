@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
 import requests
-from ANNIEMUSIC import app 
+from PAKHIMUSIC import app 
 
 SUPPORT_CHAT = "BWANDARLOK"
 

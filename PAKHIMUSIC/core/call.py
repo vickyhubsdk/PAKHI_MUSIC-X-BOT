@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from ANNIEMUSIC import LOGGER, YouTube, app
-from ANNIEMUSIC.misc import db
-from ANNIEMUSIC.utils.database import (
+from PAKHIMUSIC import LOGGER, YouTube, app
+from PAKHIMUSIC.misc import db
+from PAKHIMUSIC.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from ANNIEMUSIC.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from ANNIEMUSIC.utils.exceptions import AssistantErr
-from ANNIEMUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
-from ANNIEMUSIC.utils.inline.play import stream_markup
-from ANNIEMUSIC.utils.stream.autoclear import auto_clean
-from ANNIEMUSIC.utils.thumbnails import get_thumb
+from PAKHIMUSIC.utils.exceptions import AssistantErr
+from PAKHIMUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
+from PAKHIMUSIC.utils.inline.play import stream_markup
+from PAKHIMUSIC.utils.stream.autoclear import auto_clean
+from PAKHIMUSIC.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}

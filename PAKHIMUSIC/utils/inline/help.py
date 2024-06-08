@@ -2,7 +2,7 @@ from typing import Union
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 
 def first_page(_):
 	controll_button = [InlineKeyboardButton(text="🍁 𝕄𝐞𝐧𝐮 🍁", callback_data=f"settingsback_helper"), InlineKeyboardButton(text="🍂 ℕ𝐞𝐱𝐭 🍂", callback_data=f"dilXaditi")]

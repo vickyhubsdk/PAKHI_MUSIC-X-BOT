@@ -1,9 +1,9 @@
 from pyrogram import filters
 import random
-from ANNIEMUSIC import YouTube, app
-from ANNIEMUSIC.utils.channelplay import get_channeplayCB
-from ANNIEMUSIC.utils.decorators.language import languageCB
-from ANNIEMUSIC.utils.stream.stream import stream
+from PAKHIMUSIC import YouTube, app
+from PAKHIMUSIC.utils.channelplay import get_channeplayCB
+from PAKHIMUSIC.utils.decorators.language import languageCB
+from PAKHIMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS, AMBOT
 
 

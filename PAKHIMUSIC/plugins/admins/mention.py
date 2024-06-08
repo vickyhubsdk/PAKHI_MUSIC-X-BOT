@@ -1,8 +1,8 @@
 import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 from pyrogram import filters
-from ANNIEMUSIC.utils.jarvis_ban import admin_filter
+from PAKHIMUSIC.utils.jarvis_ban import admin_filter
 
 
 

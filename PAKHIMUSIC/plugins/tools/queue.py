@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import db
-from ANNIEMUSIC.utils import ANNIEBIN, get_channeplayCB, seconds_to_min
-from ANNIEMUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
-from ANNIEMUSIC.utils.decorators.language import language, languageCB
-from ANNIEMUSIC.utils.inline import queue_back_markup, queue_markup
+from PAKHIMUSIC import app
+from PAKHIMUSIC.misc import db
+from PAKHIMUSIC.utils import ANNIEBIN, get_channeplayCB, seconds_to_min
+from PAKHIMUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
+from PAKHIMUSIC.utils.decorators.language import language, languageCB
+from PAKHIMUSIC.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}

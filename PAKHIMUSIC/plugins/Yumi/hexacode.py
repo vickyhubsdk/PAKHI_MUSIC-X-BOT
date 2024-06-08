@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 from config import BOT_USERNAME
 
 

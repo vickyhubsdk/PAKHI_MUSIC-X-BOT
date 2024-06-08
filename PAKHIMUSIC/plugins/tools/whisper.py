@@ -1,4 +1,4 @@
-from ANNIEMUSIC import app as bot
+from PAKHIMUSIC import app as bot
 from config import BOT_USERNAME
 from pyrogram import filters
 from pyrogram.types import (

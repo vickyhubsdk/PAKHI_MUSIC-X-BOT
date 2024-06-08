@@ -13,12 +13,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.misc import db
-from ANNIEMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
-from ANNIEMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
-from ANNIEMUSIC.utils.formatters import alpha_to_int, get_readable_time
+from PAKHIMUSIC import app
+from PAKHIMUSIC.core.call import JARVIS
+from PAKHIMUSIC.misc import db
+from PAKHIMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
+from PAKHIMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
+from PAKHIMUSIC.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")

@@ -4,15 +4,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import JARVIS, autoend
-from ANNIEMUSIC.utils.database import get_client, is_active_chat, is_autoend
+from PAKHIMUSIC import app
+from PAKHIMUSIC.core.call import JARVIS, autoend
+from PAKHIMUSIC.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(900):
-            from ANNIEMUSIC.core.userbot import assistants
+            from PAKHIMUSIC.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)

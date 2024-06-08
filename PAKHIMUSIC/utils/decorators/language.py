@@ -1,5 +1,5 @@
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import get_lang, is_maintenance
+from PAKHIMUSIC.misc import SUDOERS
+from PAKHIMUSIC.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 

@@ -1,9 +1,9 @@
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 from config import OWNER_ID
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from ANNIEMUSIC.utils.jarvis_ban import admin_filter
-from ANNIEMUSIC.misc import SUDOERS
+from PAKHIMUSIC.utils.jarvis_ban import admin_filter
+from PAKHIMUSIC.misc import SUDOERS
 
 BOT_ID = app.me.id  # Corrected this line
 

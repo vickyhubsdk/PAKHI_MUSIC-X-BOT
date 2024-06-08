@@ -1,4 +1,4 @@
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 from pyrogram import filters
 from pyrogram.errors import RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
@@ -19,7 +19,7 @@ from pyrogram.enums import ParseMode
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from ANNIEMUSIC.utils.jarvis_ban import admin_filter
+from PAKHIMUSIC.utils.jarvis_ban import admin_filter
 import os
 from PIL import ImageDraw, Image, ImageFont, ImageChops
 from pyrogram import *
@@ -66,13 +66,13 @@ def circle(pfp, size=(500, 500)):
     return pfp
 
 def welcomepic(pic, user, chatname, id, uname):
-    background = Image.open("ANNIEMUSIC/assets/annie/anniewel2.png")
+    background = Image.open("PAKHIMUSIC/assets/annie/anniewel2.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
     pfp = pfp.resize((889, 873))
     draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype('ANNIEMUSIC/assets/annie/anniewel.ttf', size=105)
-    welcome_font = ImageFont.truetype('ANNIEMUSIC/assets/annie/anniewel.ttf', size=55)
+    font = ImageFont.truetype('PAKHIMUSIC/assets/annie/anniewel.ttf', size=105)
+    welcome_font = ImageFont.truetype('PAKHIMUSIC/assets/annie/anniewel.ttf', size=55)
     draw.text((1844, 1043), f': {user}', fill=(238, 130, 238), font=font)
     draw.text((1542, 1263), f': {id}', fill=(238, 130, 238), font=font)
     draw.text((1920, 1502), f": {uname}", fill=(238, 130, 238), font=font)
@@ -131,7 +131,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
                 user.photo.big_file_id, file_name=f"pp{user.id}.png"
             )
         except AttributeError:
-            pic = "ANNIEMUSIC/assets/upic.png"
+            pic = "PAKHIMUSIC/assets/upic.png"
         if (temp.MELCOW).get(f"welcome-{member.chat.id}") is not None:
             try:
                 await temp.MELCOW[f"welcome-{member.chat.id}"].delete()

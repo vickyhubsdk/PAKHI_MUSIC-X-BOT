@@ -1,7 +1,7 @@
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 from pyrogram import filters,enums
 from pyrogram.types import ChatPermissions 
-from ANNIEMUSIC.utils.jarvis_ban import admin_filter
+from PAKHIMUSIC.utils.jarvis_ban import admin_filter
 
 @app.on_message(filters.command("unmuteall") & admin_filter)
 async def unmute_all(_,msg):

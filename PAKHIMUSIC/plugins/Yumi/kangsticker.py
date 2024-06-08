@@ -14,17 +14,17 @@ from pyrogram.errors import (
     UserIsBlocked,
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 from config import BOT_USERNAME
-from ANNIEMUSIC.utils.errors import capture_err
+from PAKHIMUSIC.utils.errors import capture_err
 
-from ANNIEMUSIC.utils.files import (
+from PAKHIMUSIC.utils.files import (
     get_document_from_file_id,
     resize_file_to_sticker_size,
     upload_document,
 )
 
-from ANNIEMUSIC.utils.stickerset import (
+from PAKHIMUSIC.utils.stickerset import (
     add_sticker_to_set,
     create_sticker,
     create_sticker_set,

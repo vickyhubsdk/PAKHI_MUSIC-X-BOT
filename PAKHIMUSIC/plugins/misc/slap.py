@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 import requests
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 
 @app.on_message(filters.command("slap") & ~filters.forwarded & ~filters.via_bot)
 def slap_command(client, message):

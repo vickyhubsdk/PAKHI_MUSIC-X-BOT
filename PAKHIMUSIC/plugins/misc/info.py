@@ -2,7 +2,7 @@ import asyncio, os, time, aiohttp
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from asyncio import sleep
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 from pyrogram import filters, Client, enums
 from pyrogram.enums import ParseMode
 from pyrogram.types import *
@@ -66,8 +66,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "ANNIEMUSIC/assets/annie/jarvisXinfo.png"
-font_path = "ANNIEMUSIC/assets/annie/jarvisinf.ttf"
+bg_path = "PAKHIMUSIC/assets/annie/jarvisXinfo.png"
+font_path = "PAKHIMUSIC/assets/annie/jarvisinf.ttf"
 
 # --------------------------------------------------------------------------------- #
 

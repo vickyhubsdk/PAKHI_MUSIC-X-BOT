@@ -1,7 +1,7 @@
 import os
 import requests
 from random import randint
-from ANNIEMUSIC.utils.database import (
+from PAKHIMUSIC.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -14,24 +14,24 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton, CallbackQuery,
                             InlineKeyboardMarkup, Message)
-from ANNIEMUSIC.utils import close_markup
+from PAKHIMUSIC.utils import close_markup
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
-from ANNIEMUSIC import Carbon, app
-from ANNIEMUSIC.utils.decorators.language import language, languageCB
-from ANNIEMUSIC.utils.inline.playlist import (botplaylist_markup,
+from PAKHIMUSIC import Carbon, app
+from PAKHIMUSIC.utils.decorators.language import language, languageCB
+from PAKHIMUSIC.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from ANNIEMUSIC.utils.pastebin import ANNIEBIN
+from PAKHIMUSIC.utils.pastebin import ANNIEBIN
 import time
 import yt_dlp
 from youtube_search import YoutubeSearch
 from youtubesearchpython import VideosSearch
 from youtubesearchpython import SearchVideos
 
-from ANNIEMUSIC.utils.stream.stream import stream
+from PAKHIMUSIC.utils.stream.stream import stream
 from typing import Dict, List, Union
 
-from ANNIEMUSIC.core.mongo import mongodb
+from PAKHIMUSIC.core.mongo import mongodb
 
 
 playlistdb = mongodb.playlist
@@ -394,7 +394,7 @@ async def add_playlist(client, message: Message, _):
             return await message.reply_text(str(e))
             pass
     else:
-        from ANNIEMUSIC import YouTube
+        from PAKHIMUSIC import YouTube
         # Add a specific song by name
         query = " ".join(message.command[1:])
         print(query)
@@ -508,7 +508,7 @@ async def del_plist(client, CallbackQuery, _):
 @app.on_callback_query(filters.regex("recover_playlist") & ~BANNED_USERS)
 @languageCB
 async def add_playlist(client, CallbackQuery, _):
-    from ANNIEMUSIC import YouTube
+    from PAKHIMUSIC import YouTube
     callback_data = CallbackQuery.data.strip()
     videoid = callback_data.split(None, 1)[1]
     user_id = CallbackQuery.from_user.id
@@ -574,7 +574,7 @@ async def add_playlist(client, CallbackQuery, _):
     _check = await get_playlist(user_id, videoid)
     if _check:
         try:
-            from ANNIEMUSIC import YouTube
+            from PAKHIMUSIC import YouTube
             return await CallbackQuery.answer(
                 _["playlist_8"], show_alert=True
             )
@@ -618,7 +618,7 @@ DELETE_ALL_PLAYLIST_COMMAND = ("delallplaylist")
 @app.on_message(filters.command(DELETE_ALL_PLAYLIST_COMMAND) & ~BANNED_USERS)
 @language
 async def delete_all_playlists(client, message, _):
-    from ANNIEMUSIC import YouTube
+    from PAKHIMUSIC import YouTube
     user_id = message.from_user.id
     _playlist = await get_playlist_names(user_id)
     if _playlist:
@@ -634,7 +634,7 @@ async def delete_all_playlists(client, message, _):
 @app.on_callback_query(filters.regex("del_playlist") & ~BANNED_USERS)
 @languageCB
 async def del_plist(client, CallbackQuery, _):
-    from ANNIEMUSIC import YouTube
+    from PAKHIMUSIC import YouTube
     callback_data = CallbackQuery.data.strip()
     videoid = callback_data.split(None, 1)[1]
     user_id = CallbackQuery.from_user.id
@@ -667,7 +667,7 @@ async def del_plist(client, CallbackQuery, _):
 )
 @languageCB
 async def del_whole_playlist(client, CallbackQuery, _):
-    from ANNIEMUSIC import YouTube
+    from PAKHIMUSIC import YouTube
     _playlist = await get_playlist_names(CallbackQuery.from_user.id)
     for x in _playlist:
         await CallbackQuery.answer("➻ ᴏᴋ sɪʀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ.\n\n➥ ᴅᴇʟᴇᴛɪɴɢ ʏᴏᴜʀ ᴘʟᴀʏʟɪsᴛ...", show_alert=True)
@@ -695,7 +695,7 @@ async def get_playlist_playmode_(client, CallbackQuery, _):
 )
 @languageCB
 async def delete_warning_message(client, CallbackQuery, _):
-    from ANNIEMUSIC import YouTube
+    from PAKHIMUSIC import YouTube
     try:
         await CallbackQuery.answer()
     except:
@@ -709,7 +709,7 @@ async def delete_warning_message(client, CallbackQuery, _):
 @app.on_callback_query(filters.regex("home_play") & ~BANNED_USERS)
 @languageCB
 async def home_play_(client, CallbackQuery, _):
-    from ANNIEMUSIC import YouTube
+    from PAKHIMUSIC import YouTube
     try:
         await CallbackQuery.answer()
     except:
@@ -725,7 +725,7 @@ async def home_play_(client, CallbackQuery, _):
 )
 @languageCB
 async def del_back_playlist(client, CallbackQuery, _):
-    from ANNIEMUSIC import YouTube
+    from PAKHIMUSIC import YouTube
     user_id = CallbackQuery.from_user.id
     _playlist = await get_playlist_names(user_id)
     if _playlist:

@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pydub import AudioSegment
 import io
 import speech_recognition as sr
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 
 # Function to convert audio file to text
 def audio_to_text(audio_data):

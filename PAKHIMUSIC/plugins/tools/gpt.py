@@ -1,7 +1,7 @@
 import os, time
 import openai
 from pyrogram import filters
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 from pyrogram.enums import ChatAction, ParseMode
 from gtts import gTTS
 import requests, config

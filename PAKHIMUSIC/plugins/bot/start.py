@@ -7,12 +7,12 @@ from youtubesearchpython.__future__ import VideosSearch
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 import config
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import _boot_
-from ANNIEMUSIC.plugins.sudo.sudoers import sudoers_list
-from ANNIEMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
-from ANNIEMUSIC.utils import bot_sys_stats
-from ANNIEMUSIC.utils.database import (
+from PAKHIMUSIC import app
+from PAKHIMUSIC.misc import _boot_
+from PAKHIMUSIC.plugins.sudo.sudoers import sudoers_list
+from PAKHIMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
+from PAKHIMUSIC.utils import bot_sys_stats
+from PAKHIMUSIC.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -20,9 +20,9 @@ from ANNIEMUSIC.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from ANNIEMUSIC.utils.decorators.language import LanguageStart
-from ANNIEMUSIC.utils.formatters import get_readable_time
-from ANNIEMUSIC.utils.inline import help_pannel, private_panel, start_panel
+from PAKHIMUSIC.utils.decorators.language import LanguageStart
+from PAKHIMUSIC.utils.formatters import get_readable_time
+from PAKHIMUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS, AMOP
 from strings import get_string
 

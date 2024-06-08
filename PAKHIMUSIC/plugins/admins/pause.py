@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.utils.database import is_music_playing, music_off
-from ANNIEMUSIC.utils.decorators import AdminRightsCheck
-from ANNIEMUSIC.utils.inline import close_markup
+from PAKHIMUSIC import app
+from PAKHIMUSIC.core.call import JARVIS
+from PAKHIMUSIC.utils.database import is_music_playing, music_off
+from PAKHIMUSIC.utils.decorators import AdminRightsCheck
+from PAKHIMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 

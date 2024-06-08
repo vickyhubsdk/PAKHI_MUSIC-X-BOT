@@ -1,11 +1,11 @@
 from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.utils import bot_sys_stats
-from ANNIEMUSIC.utils.decorators.language import language
-from ANNIEMUSIC.utils.inline import supp_markup
+from PAKHIMUSIC import app
+from PAKHIMUSIC.core.call import JARVIS
+from PAKHIMUSIC.utils import bot_sys_stats
+from PAKHIMUSIC.utils.decorators.language import language
+from PAKHIMUSIC.utils.inline import supp_markup
 from config import BANNED_USERS
 import aiohttp
 import asyncio

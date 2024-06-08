@@ -7,10 +7,10 @@ from PIL import Image
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.errors import capture_err
+from PAKHIMUSIC import app
+from PAKHIMUSIC.utils.errors import capture_err
 
-from ANNIEMUSIC.core.sections import section
+from PAKHIMUSIC.core.sections import section
 
 
 async def convert(

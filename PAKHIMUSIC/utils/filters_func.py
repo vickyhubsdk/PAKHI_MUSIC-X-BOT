@@ -1,8 +1,8 @@
 from enum import Enum, auto
-from ANNIEMUSIC import app
+from PAKHIMUSIC import app
 from pyrogram.types import InlineKeyboardMarkup, Message
-from ANNIEMUSIC.utils.msg_types import button_markdown_parser
-from ANNIEMUSIC.utils.notes_func import NoteFillings
+from PAKHIMUSIC.utils.msg_types import button_markdown_parser
+from PAKHIMUSIC.utils.notes_func import NoteFillings
 from emojis import decode
 from pyrogram.types import Message
 

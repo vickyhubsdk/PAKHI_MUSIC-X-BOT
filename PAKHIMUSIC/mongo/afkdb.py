@@ -1,4 +1,4 @@
-from ANNIEMUSIC.utils.mongo import db
+from PAKHIMUSIC.utils.mongo import db
 
 afkdb = db.afk
 
