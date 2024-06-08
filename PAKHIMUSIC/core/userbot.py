@@ -47,7 +47,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"GUPPSHUPP's Assistant starting...")
+        LOGGER(__name__).info(f"PAKHIMUSIC's Assistant starting...")
         if config.STRING1:
             await self.one.start()
             try:
@@ -58,7 +58,7 @@ class Userbot(Client):
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "GUPP SHUPP's Assistant Start.........")
+                await self.one.send_message(config.LOGGER_ID, "PAKHIMUSIC's Assistant starting.........")
                                          
             except:
                 LOGGER(__name__).error(
@@ -81,7 +81,7 @@ class Userbot(Client):
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "GUPP SHUPP's Assistant Started")
+                await self.two.send_message(config.LOGGER_ID, "PAKHIMUSIC's Assistant startinged")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
@@ -103,7 +103,7 @@ class Userbot(Client):
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "GUPP SHUPP's Assistant Started")
+                await self.three.send_message(config.LOGGER_ID, "PAKHIMUSIC's Assistant startinged")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -160,7 +160,7 @@ class Userbot(Client):
             LOGGER(__name__).info(f"Assistant Five Started as {self.five.name}")
 
     async def stop(self):
-        LOGGER(__name__).info(f"GUPP SHUPP's Stopping Assistants...")
+        LOGGER(__name__).info(f"PAKHIMUSIC's Stopping Assistants...")
         try:
             if config.STRING1:
                 await self.one.stop()
