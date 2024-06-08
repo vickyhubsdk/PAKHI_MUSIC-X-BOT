@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils import get_readable_time
-from ANNIEMUSIC.utils.database import (
+from PAKHIMUSIC import app
+from PAKHIMUSIC.misc import SUDOERS
+from PAKHIMUSIC.utils import get_readable_time
+from PAKHIMUSIC.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from ANNIEMUSIC.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from ANNIEMUSIC.utils.decorators.language import language
-from ANNIEMUSIC.utils.extraction import extract_user
+from PAKHIMUSIC.utils.decorators.language import language
+from PAKHIMUSIC.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
