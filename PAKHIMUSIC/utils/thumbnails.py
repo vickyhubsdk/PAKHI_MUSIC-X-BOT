@@ -123,7 +123,6 @@ async def get_thumb(videoid):
             image4 = ImageDraw.Draw(image2)
             image4.text((10, 10), "PAKHI MUSIC", fill="white", font = font1, align ="left") 
             image4.text((600, 120), "PLAYING SONG ", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
-            image4.text((10, 10), "BY VICKY", fill="#fffffb ", font = font1, align ="right") 
 
             # title
             title1 = truncate(title)
