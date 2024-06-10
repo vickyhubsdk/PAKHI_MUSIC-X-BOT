@@ -9,12 +9,12 @@ from pyrogram.types import *
 from typing import Union, Optional
 import random
 
-anniephoto = [
-    "https://telegra.ph/file/07fd9e0e34bc84356f30d.jpg",
-    "https://telegra.ph/file/3c4de59511e179018f902.jpg",
-    "https://telegra.ph/file/07fd9e0e34bc84356f30d.jpg",
-    "https://telegra.ph/file/3c4de59511e179018f902.jpg",
-    "https://telegra.ph/file/002b98f44394097758551.jpg"
+pakhiphoto = [
+    "https://graph.org/file/5730046b13f9755ebe5bc.jpg",
+    "https://graph.org/file/5730046b13f9755ebe5bc.jpg",
+    "https://graph.org/file/5730046b13f9755ebe5bc.jpg",
+    "https://graph.org/file/5730046b13f9755ebe5bc.jpg",
+    "https://graph.org/file/5730046b13f9755ebe5bc.jpg"
 ]
 
 # --------------------------------------------------------------------------------- #
@@ -141,8 +141,8 @@ async def userinfo(_, message):
                     profile_path=photo,
                 )
             else:
-                # User doesn't have a profile photo, use anniephoto directly
-                welcome_photo = random.choice(anniephoto)
+                # User doesn't have a profile photo, use pakhiphoto directly
+                welcome_photo = random.choice(pakhiphoto)
                 
             await app.send_photo(chat_id, photo=welcome_photo, caption=INFO_TEXT.format(
                 id, first_name, last_name, username, mention, status, dc_id, bio), reply_to_message_id=message.id)
@@ -172,8 +172,8 @@ async def userinfo(_, message):
                     profile_path=photo,
                 )
             else:
-                # User doesn't have a profile photo, use anniephoto directly
-                welcome_photo = random.choice(anniephoto)
+                # User doesn't have a profile photo, use pakhiphoto directly
+                welcome_photo = random.choice(pakhiphoto)
                 
             await app.send_photo(chat_id, photo=welcome_photo, caption=INFO_TEXT.format(
                 id, first_name, last_name, username, mention, status, dc_id, bio), reply_to_message_id=message.id)
@@ -204,8 +204,8 @@ async def userinfo(_, message):
                     profile_path=photo,
                 )
             else:
-                # User doesn't have a profile photo, use anniephoto directly
-                welcome_photo = random.choice(anniephoto)
+                # User doesn't have a profile photo, use pakhiphoto directly
+                welcome_photo = random.choice(pakhiphoto)
                 
             await app.send_photo(chat_id, photo=welcome_photo, caption=INFO_TEXT.format(
                 id, first_name, last_name, username, mention, status, dc_id, bio), reply_to_message_id=message.id)
