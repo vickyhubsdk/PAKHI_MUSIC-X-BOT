@@ -12,11 +12,11 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","INNCOENT_JAAT_1203")
+OWNER_USERNAME = getenv("OWNER_USERNAME","VICKY_CHOUDHARY_1203")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "GUPP_SHUPP_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "PAKHI_MUSIC_BOT")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "𝐆𝐔𝐏𝐏 𝐒𝐇𝐔𝐏𝐏 𝐗 𝐌𝐔𝐒𝐈𝐂")
+BOT_NAME = getenv("BOT_NAME" , "𝐏αкнι ✗ ɱυѕιƈ, 🎶 [ᴠ ᴘ]")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "GUPP_SHUP_ASSTANT")
 EVALOP = list(map(int, getenv("EVALOP", "7001982096").split()))
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BABA_BOTS_NETWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BABA_BOTS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/botverse_community")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/botverse_suppert_chat")
 
 
 # Maximum Limit Allowed for users to save playlists on bot's server
