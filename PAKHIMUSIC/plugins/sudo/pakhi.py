@@ -11,7 +11,7 @@ from PAKHIMUSIC.utils.jarvis_ban import admin_filter
 
 
 
-Jarvis_text = [
+Pakhi_text = [
 "hey please don't disturb me.",
 "who are you",    
 "aap kon ho",
@@ -58,7 +58,7 @@ async def restriction_app(app :app, message):
     reply = message.reply_to_message
     chat_id = message.chat.id
     if len(message.text) > 1:
-        return await message.reply(random.choice(Jarvis_text))
+        return await message.reply(random.choice(Pakhi_text))
     bruh = message.text.split(maxsplit=1)[1]
     data = bruh.split(" ")
     
