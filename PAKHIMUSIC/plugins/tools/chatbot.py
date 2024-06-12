@@ -8,7 +8,6 @@ from telegram import (
     Chat,
     InlineKeyboardButton,
     InlineKeyboardMarkup,
-    ParseMode,
     Update,
     User,
 )
