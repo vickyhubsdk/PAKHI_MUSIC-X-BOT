@@ -7,12 +7,12 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps.
-API_ID = int(getenv("API_ID", "21265409"))
-API_HASH = getenv("API_HASH", "34c826fd1b989c35e338248d07ad3665)
+API_ID = int(getenv("API_ID","21265409"))
+API_HASH = getenv("API_HASH","34c826fd1b989c35e338248d07ad3665)
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7437871765:AAFbp1LIryYqbBvFQbTvusDzxhJy53OlQDY")
+BOT_TOKEN = getenv("BOT_TOKEN" "7437871765:AAFbp1LIryYqbBvFQbTvusDzxhJy53OlQDY")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "VICKY_CHOUDHARY_1203")
+OWNER_USERNAME = getenv("OWNER_USERNAME","VICKY_CHOUDHARY_1203")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "PAKHI_MUSIC_BOT")
 # Don't Add style font 
