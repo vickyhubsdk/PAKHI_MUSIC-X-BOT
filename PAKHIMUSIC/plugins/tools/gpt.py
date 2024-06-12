@@ -3,7 +3,6 @@ import time
 import requests
 from PAKHIMUSIC import app
 from config import BOT_NAME
-from config
 
 from pyrogram.enums import ChatAction, ParseMode
 from pyrogram import filters
