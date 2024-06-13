@@ -86,6 +86,9 @@ STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 AMBOT = [
+    "𝐒𝐄𝐀𝐑𝐂𝐇𝐈𝐍𝐆 𝐓𝐇𝐄 𝐒𝐎𝐍𝐆 𝐑𝐀𝐉𝐀 𝐉𝐈 ✨✨",
+    "𝐕𝐂 𝐃𝐄𝐊𝐇𝐎  𝐒𝐓𝐀𝐑𝐓 𝐇𝐎𝐆𝐘𝐀 𝐒𝐎𝐍𝐆🎧🎧",
+    "👻",
     "💞",
     "🦋",
     "🔍",
