@@ -1,41 +1,3 @@
-Skip to content
-Navigation Menu
-vicky0604hello
-/
-important
-
-Type / to search
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Settings
-
-Your license is ready. Please review it below and either commit it to the main branch or to a new branch. 
-Breadcrumbsimportant
-/play.py
-Go to file
-t
-Latest commit
-vicky0604hello
-vicky0604hello
-pakhi play.py
-74ad5a4
- · 
-now
-History
-Breadcrumbsimportant
-/play.py
-File metadata and controls
-
-Code
-
-Blame
-393 lines (351 loc) · 11.2 KB
 import math
 from typing import Union
 from pyrogram.types import InlineKeyboardButton
@@ -429,4 +391,3 @@ def panel_markup_3(_, videoid, chat_id):
         ],
     ]
     return buttons
-important/play.py at main · vicky0604hello/important
