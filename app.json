@@ -60,7 +60,7 @@
       "GPT_API": {
         "description": "Your GPT API Key open ai.",
         "value": "",
-        "required": true
+        "required": false
       }
     },
     "buildpacks": [
