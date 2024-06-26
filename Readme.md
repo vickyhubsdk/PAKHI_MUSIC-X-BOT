@@ -5,7 +5,7 @@
     <b>ᴠɪsɪᴛᴏʀs</b><br>
  -->    <img align="middle" src="https://profile-counter.glitch.me/vicky0604hello/count.svg" />
 
-<h1 align ="center"><img src="https://readme-typing-svg.herokuapp.com?color=F778A1&width=350&lines=✨+🦋𝐆𝐔𝐏𝐏+𝐒𝐇𝐔𝐏𝐏+𝐌𝐔𝐒𝐈𝐂+𝐁𝐎𝐓🖤+🥀"></b></h1>
+<h1 align ="center"><img src="https://readme-typing-svg.herokuapp.com?color=F778A1&width=350&lines=✨+🦋PAKHI+VICKY+𝐌𝐔𝐒𝐈𝐂+𝐁𝐎𝐓🖤+🥀"></b></h1>
 
 <p align="center"><img src="https://graph.org/file/5f25e7be3d5ae407d8593.jpg" width="800"></a></p>
 
