@@ -6,7 +6,7 @@ from PAKHIMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "Legend_X_King"
+MUST_JOIN = "Love_x_frnd"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
