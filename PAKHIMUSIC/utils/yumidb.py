@@ -9,10 +9,11 @@ from PAKHIMUSIC import app
 
 from config import OWNER_ID, BOT_USERNAME
 from PAKHIMUSIC.misc import SUDOERS
+from typing import Tuple
 
 COMMANDERS = [ChatMemberStatus.ADMINISTRATOR, ChatMemberStatus.OWNER]
 
-async def user_has_permission(chat_title : str, chat_id: int, user_id: int, permission: str,bot=True) -> tuple[bool, str]:
+async def user_has_permission(chat_title: str, chat_id: int, user_id: int, permission: str, bot=True) -> Tuple[bool, str]:
     try:
         if user_id in SUDORES:
             have_permission = True
