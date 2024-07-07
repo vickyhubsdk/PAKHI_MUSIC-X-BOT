@@ -41,7 +41,7 @@ async def start(_, msg):
      
              [
              InlineKeyboardButton("𝗦𝗧𝗥𝗜𝗡𝗚𝗕𝗢𝗧", url=f"https://t.me/Emergency_Gamer"),            
-             InlineKeyboardButton("︎𝗠𝗨𝗦𝗜𝗖", url=f"https://github.com/vicky0604hello/PAKHI_MUSIC-X-BOT"),
+             InlineKeyboardButton("︎𝗠𝗨𝗦𝗜𝗖", url=f"https://t.me/Emergency_Gamer"),
              ],
      
              [
