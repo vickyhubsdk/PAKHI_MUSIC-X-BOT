@@ -32,7 +32,7 @@ async def start(_, msg):
      
             [
              InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/botverse_suppert_chat"),
-             InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/VICKY_CHOUDHARY_1203"),
+             InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/Emergency_Gamer"),
              ],
      
              [
@@ -56,7 +56,7 @@ async def start(_, msg):
      
               [
               InlineKeyboardButton("𝐆𝐈𝐓𝐇𝐔𝐁 𝐏𝐑𝐎𝐅𝐈𝐋𝐄", url=f"https://github.com/vicky0604hello"),
-              InlineKeyboardButton("𝐕𝐈𝐂𝐊𝐘 𝐂𝐇𝐎𝐔𝐃𝐇𝐀𝐑𝐘 ♡︎", url=f"https://t.me/VICKY_CHOUDHARY_1203"),
+              InlineKeyboardButton("𝐕𝐈𝐂𝐊𝐘 𝐂𝐇𝐎𝐔𝐃𝐇𝐀𝐑𝐘 ♡︎", url=f"https://t.me/Emergency_Gamer"),
               ],
      
               [
