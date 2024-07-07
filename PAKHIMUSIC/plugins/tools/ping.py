@@ -70,10 +70,10 @@ async def ping_com(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(
-                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/botverse_suppert_chat",
+                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/Emergency_Gamer",
             ),
             InlineKeyboardButton(
-                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/botverse_community",
+                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/Emergency_Gamer",
             )
         ],
         [
