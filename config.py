@@ -21,7 +21,7 @@ BOT_NAME = getenv("BOT_NAME" , "𝐏αкнι ✗ ɱυѕιƈ, 🎶 [ᴠ ᴘ]")
 ASSUSERNAME = getenv("ASSUSERNAME" , "GUPP_SHUP_ASSTANT")
 EVALOP = list(map(int, getenv("EVALOP", "7001982096").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Vicky123:Vicky123@cluster0.qznmdso.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
@@ -80,7 +80,9 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 # Ge@STRINGSEASO_NBOT2 session from @STRINGSEASO_NBOT
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQEyKokAk3nRO071hZwioJU50TbCnHcbw17pk0nP9aJg1eZROWvk3Kl3-LYXrpQLKee-TPT9_gDbILcK3nIKvjD-6J4Uwad3UlpMklPsU9OKjJqmY2Ne_AoPS3e_00tGWh9NLavKGswfw1trn66Ocs2AywuZMq9HaeUMkWTTaJ5OVANQ-HU8qtZskoH8S_iIlEq_qUyLIBaTDMXQSVxhM0IGKw8qDaJBh-CNtgtqZyZ2ab7XwFHEINMllpdswD9gXQIo38IJh-7hTyG-0ptnIO-GYjvVa1ShMSNepuVDWQkFhmmVXzwcpYvqQc0CSXgxppprlxTLQmJ09YuHuWpnojxb7rWsYwAAAAGUZPvYAA
+REPO_URL=https://github.com/vicky0604hello/PAKHI_MUSIC-X-BOT
+START_CMD=bash start")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
